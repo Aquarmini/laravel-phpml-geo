@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4aa2992420e2cd6d7dc13d343be4e1fc",
+    "content-hash": "309ac2565631dc4d15c7cc43bdb254f2",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -1042,6 +1042,61 @@
                 "random"
             ],
             "time": "2018-07-02T15:55:56+00:00"
+        },
+        {
+            "name": "php-ai/php-ml",
+            "version": "0.7.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-ai/php-ml.git",
+                "reference": "db95db3e57475df53d602b32c4451438c21e46c3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-ai/php-ml/zipball/db95db3e57475df53d602b32c4451438c21e46c3",
+                "reference": "db95db3e57475df53d602b32c4451438c21e46c3",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1"
+            },
+            "require-dev": {
+                "phpbench/phpbench": "^0.14.0",
+                "phpstan/phpstan-phpunit": "^0.10",
+                "phpstan/phpstan-shim": "^0.10",
+                "phpstan/phpstan-strict-rules": "^0.10",
+                "phpunit/phpunit": "^7.0.0",
+                "symplify/coding-standard": "^5.1",
+                "symplify/easy-coding-standard": "^5.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Phpml\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Arkadiusz Kondas",
+                    "email": "arkadiusz.kondas@gmail.com"
+                }
+            ],
+            "description": "PHP-ML - Machine Learning library for PHP",
+            "homepage": "https://github.com/php-ai/php-ml",
+            "keywords": [
+                "Neural network",
+                "artificial intelligence",
+                "computational learning theory",
+                "data science",
+                "feature extraction",
+                "machine learning",
+                "pattern recognition"
+            ],
+            "time": "2018-11-07T18:40:31+00:00"
         },
         {
             "name": "phpoption/phpoption",
@@ -4426,6 +4481,34 @@
             "description": "Library that helps with managing the version number of Git-hosted PHP projects",
             "homepage": "https://github.com/sebastianbergmann/version",
             "time": "2016-10-03T07:35:21+00:00"
+        },
+        {
+            "name": "swoft/swoole-ide-helper",
+            "version": "v4.2.12",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/swoft-cloud/swoole-ide-helper.git",
+                "reference": "912a2c5db04c859531d7e89a1a985bb63354fe8d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/swoft-cloud/swoole-ide-helper/zipball/912a2c5db04c859531d7e89a1a985bb63354fe8d",
+                "reference": "912a2c5db04c859531d7e89a1a985bb63354fe8d",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "description": "ide helper for Swoft and Swoole",
+            "keywords": [
+                "ide-helper",
+                "php",
+                "swoft",
+                "swoole"
+            ],
+            "time": "2019-01-06T11:09:21+00:00"
         },
         {
             "name": "theseer/tokenizer",
